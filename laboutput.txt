@@ -1,0 +1,14 @@
+..................................F
+======================================================================
+FAIL: test_0 (__main__.lab3e)
+[Lab 3] - [Investigation 3] - [Part 1] - Functions - Test for file creation: ./lab3e.py
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/msaeidi7/ops445/lab3/./CheckLab3.py", line 373, in test_0
+    self.assertTrue(os.path.exists('./lab3e.py'), msg=error_output)
+AssertionError: False is not true : your file cannot be found(HINT: make sure you AND your file are in the correct directory)
+
+----------------------------------------------------------------------
+Ran 35 tests in 0.096s
+
+FAILED (failures=1)
